@@ -10,7 +10,7 @@ if [  $? -eq 0  ]; then
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
     echo "powerlevel10k downloaded,now modify .zshrc"
     
-    cp ./zsh/zshrc.txt ./zshrc
+    cp ./zsh/zshrc.txt ./.zshrc
     echo ".zshrc now modified,install plugins"
     
     git clone https://github.com/joelthelion/autojump.git $ZSH_CUSTOM/plugins/autojump
@@ -38,7 +38,7 @@ if [   $? -eq 0  ]; then
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
     echo "powerlevel10k downloaded,now modify .zshrc"
      
-    cp ./zsh/zshrc.txt ./zshrc
+    cp ./zsh/zshrc.txt ./.zshrc
     echo ".zshrc now modified,install plugins"
     
     git clone https://github.com/joelthelion/autojump.git $ZSH_CUSTOM/plugins/autojump
