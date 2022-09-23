@@ -1,7 +1,7 @@
 
 sudo cat /etc/os-release | grep "CentOS" > /dev/null
 if [  $? -eq 0  ]; then
-    sudo yum install -y git
+    
     echo  "You're using CentOS,uisng yum to install git,zsh"
     sudo yum -y install git zsh
     echo "Install git,zsh successful,now install oh-my-zsh"
@@ -29,7 +29,7 @@ if [  $? -eq 0  ]; then
 fi
 sudo cat /etc/os-release | grep "Ubuntu" > /dev/null
 if [   $? -eq 0  ]; then
-    sudo apt install -y git
+    
     echo  "You're using Ubuntu"
     sudo apt -y install git zsh
     echo "Install git,zsh successful,now install oh-my-zsh"
