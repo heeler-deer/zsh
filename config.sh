@@ -10,7 +10,7 @@ if [  $? -eq 0  ]; then
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
     echo "powerlevel10k downloaded,now modify .zshrc"
     
-    cp ./zsh/zshrc.txt ./.zshrc
+    cp ./zshrc.txt ~/.zshrc
     echo ".zshrc now modified,install plugins"
     
     git clone https://github.com/joelthelion/autojump.git $ZSH_CUSTOM/plugins/autojump
@@ -19,7 +19,7 @@ if [  $? -eq 0  ]; then
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
     git clone https://github.com/zsh-users/zsh-completions.git  $ZSH_CUSTOM/plugins/zsh-completions
     echo "now plugins completed"
-    source ./.zshrc
+    source ~/.zshrc
     echo "enjoy your ZSH!!!!!!!!!!!!!!"
 
 
@@ -38,7 +38,7 @@ if [   $? -eq 0  ]; then
     git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
     echo "powerlevel10k downloaded,now modify .zshrc"
      
-    cp ./zsh/zshrc.txt ./.zshrc
+    cp ./zshrc.txt ~/.zshrc
     echo ".zshrc now modified,install plugins"
     
     git clone https://github.com/joelthelion/autojump.git $ZSH_CUSTOM/plugins/autojump
@@ -47,7 +47,7 @@ if [   $? -eq 0  ]; then
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
     git clone https://github.com/zsh-users/zsh-completions.git  $ZSH_CUSTOM/plugins/zsh-completions
     echo "now plugins completed"
-    source ./.zshrc
+    source ~/.zshrc
     echo "enjoy your ZSH!!!!!!!!!!!!!!"
 fi
 
