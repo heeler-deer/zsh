@@ -51,3 +51,5 @@ if [   $? -eq 0  ]; then
     echo "enjoy your ZSH!!!!!!!!!!!!!!"
 fi
 
+
+chsh -s /bin/zsh
