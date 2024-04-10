@@ -1,3 +1,4 @@
+ZSH_CUSTOM="$HOME/.oh-my-zsh/custom"
 
 sudo cat /etc/os-release | grep "CentOS" > /dev/null
 if [  $? -eq 0  ]; then
